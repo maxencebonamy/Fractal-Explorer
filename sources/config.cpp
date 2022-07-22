@@ -8,7 +8,7 @@ const int WINDOW_FPS { 60 };
 const Vector2 WINDOW_SIZE { 1280, 720 };
 
 // The length of the side of a cell (in pixels)
-const float CELL_SIZE { 1 };
+const float CELL_SIZE { 5 };
 // The dimensions of the grid (in pixels)
 const Vector2 GRID_SIZE { WINDOW_SIZE / CELL_SIZE };
 

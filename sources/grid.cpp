@@ -6,6 +6,7 @@ Grid::Grid() {
     for (int i { 0 }; i < _size.getX() * _size.getY() * 4; ++i) _pixels.push_back(255);
     _texture.update(_pixels.data());
     _sprite.setTexture(_texture);
+    _sprite.setScale(CELL_SIZE, CELL_SIZE);
 }
 
 void Grid::updateFractal() {
@@ -13,7 +14,7 @@ void Grid::updateFractal() {
     sf::Uint8* ptr { _pixels.data() };
     for (int j { 0 }; j < _size.getY(); ++j) {
         for (int i { 0 }; i < _size.getX(); ++i) {
-            Vector2 cellPos { Vector2(i, j) * CELL_SIZE };
+            Vector2 cellPos { Vector2(i, j) };
 
             Vector2 position { (_posMax - _posMin) / _size * cellPos + _posMin };
             sf::Color color { fractal->getColor(position, _zoom) };
@@ -41,7 +42,7 @@ void Grid::updateEvents(int delta, const sf::Mouse& mouse, const sf::RenderWindo
         float factor { (float)std::pow(value, std::abs(delta)) };
 
         Vector2 mousePos { (float)mouse.getPosition(window).x, (float)mouse.getPosition(window).y };
-        Vector2 point { (_posMax - _posMin) / _size * mousePos + _posMin };
+        Vector2 point { (_posMax - _posMin) / _size * mousePos / CELL_SIZE + _posMin };
 
         _posMin = point - (point - _posMin) * factor;
         _posMax = point + (_posMax - point) * factor;
