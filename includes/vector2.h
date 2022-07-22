@@ -1,5 +1,5 @@
-#ifndef MINESWEEPER_VECTOR2_H
-#define MINESWEEPER_VECTOR2_H
+#ifndef FRACTAL_EXPLORER_VECTOR2_H
+#define FRACTAL_EXPLORER_VECTOR2_H
 
 #include <cmath>
 #include <cassert>

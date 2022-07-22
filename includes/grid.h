@@ -1,5 +1,5 @@
-#ifndef MINESWEEPER_GRID_H
-#define MINESWEEPER_GRID_H
+#ifndef FRACTAL_EXPLORER_GRID_H
+#define FRACTAL_EXPLORER_GRID_H
 
 #include "config.h"
 

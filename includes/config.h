@@ -1,5 +1,5 @@
-#ifndef MINESWEEPER_CONFIG_H
-#define MINESWEEPER_CONFIG_H
+#ifndef FRACTAL_EXPLORER_CONFIG_H
+#define FRACTAL_EXPLORER_CONFIG_H
 
 #include "vector2.h"
 #include <vector>
