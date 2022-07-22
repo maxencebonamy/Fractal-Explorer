@@ -15,7 +15,6 @@ public:
     void updateEvents(int delta, const sf::Mouse& mouse, const sf::RenderWindow& window);
 
 private:
-    sf::Color _getColor(const Vector2& position);
 
     const Vector2& _size { GRID_SIZE };
 

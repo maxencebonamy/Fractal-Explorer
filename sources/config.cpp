@@ -13,4 +13,4 @@ const float CELL_SIZE { 1 };
 const Vector2 GRID_SIZE { WINDOW_SIZE / CELL_SIZE };
 
 // The type of fractal that will be visualized
-std::unique_ptr<Fractal> fractal { std::make_unique<Mandelbrot>() };
+std::unique_ptr<Fractal> fractal { std::make_unique<BurningShip>() };

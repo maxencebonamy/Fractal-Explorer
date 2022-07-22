@@ -49,19 +49,3 @@ void Grid::updateEvents(int delta, const sf::Mouse& mouse, const sf::RenderWindo
         updateFractal();
     }
 }
-
-sf::Color Grid::_getColor(const Vector2& position) {
-    std::complex<float> z;
-
-    std::complex<float> c(position.getX(), position.getY());
-
-    int nbIter { 4 * std::max(0, _zoom) + 20 };
-    for (int i { 0 }; i < nbIter; ++i) {
-        z = std::pow(z, 2) + c;
-
-        if (std::pow(z.real(), 2) + std::pow(z.imag(), 2) > 4)
-            return sf::Color(std::min(i*0, 255), std::min(i*10, 255), std::min(i*20, 255));
-    }
-
-    return sf::Color::Black;
-}
