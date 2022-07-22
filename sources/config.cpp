@@ -12,4 +12,5 @@ const float CELL_SIZE { 1 };
 // The dimensions of the grid (in pixels)
 const Vector2 GRID_SIZE { WINDOW_SIZE / CELL_SIZE };
 
+// The type of fractal that will be visualized
 std::unique_ptr<Fractal> fractal { std::make_unique<Mandelbrot>() };

@@ -35,7 +35,7 @@ void Grid::display(sf::RenderWindow& window) {
 
 void Grid::updateEvents(int delta, const sf::Mouse& mouse, const sf::RenderWindow& window) {
     if (delta != 0) {
-        float value { delta > 0 ? 0.95f : 1.05f };
+        float value { delta > 0 ? 0.75f : 1.33f };
         _zoom += delta > 0 ? 1 : -1 ;
 
         float factor { (float)std::pow(value, std::abs(delta)) };
@@ -55,7 +55,7 @@ sf::Color Grid::_getColor(const Vector2& position) {
 
     std::complex<float> c(position.getX(), position.getY());
 
-    int nbIter { 1 * std::max(0, _zoom) + 20 };
+    int nbIter { 4 * std::max(0, _zoom) + 20 };
     for (int i { 0 }; i < nbIter; ++i) {
         z = std::pow(z, 2) + c;
 
