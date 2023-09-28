@@ -25,11 +25,10 @@ This software lets you visualize two very specific fractals and move inside to o
 
 1. Click on the <a href="https://github.com/maxencebonamy/Fractal-Explorer/releases" target="_blank">Releases</a> button on the right and select the **latest version**.
 2. Download the **.zip** archive and extract the files.
-3. Open a terminal from the folder **Fractal-Explorer** and run the folowwing command:
+3. Open a terminal from the folder **Fractal-Explorer** and run one of the folowwing commands:
 ```
 Fractal-Explorer.exe --fractal mandelbrot
 ```
-or
 ```
 Fractal-Explorer.exe --fractal burning-ship
 ```
@@ -57,11 +56,10 @@ cd Fractal-Explorer
 xmake
 ```
 
-4. **Run** the executable with this command:
+4. **Run** the executable with one of these commands:
 ```
 xmake run main --fractal mandelbrot
 ```
-or
 ```
 xmake run main --fractal burning-ship
 ```
