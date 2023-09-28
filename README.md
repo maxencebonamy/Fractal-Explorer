@@ -13,10 +13,12 @@ A fractal is a mathematical object with a similar structure at all scales.
 In particular, you can zoom in to infinity and see the same patterns.
 This software lets you visualize two very specific fractals and move inside to observe them.
 
-**Mandelbrot:** The <a href="https://en.wikipedia.org/wiki/Mandelbrot_set">Mandelbrot set</a> is a fractal defined as the set of points $c$ of the complex plane for which the sequence of complex numbers, defined by recurrence by $z_0=0$ and $z_{n+1}=z_n^2+c$, is bounded.
+### Mandelbrot:
+The <a href="https://en.wikipedia.org/wiki/Mandelbrot_set">Mandelbrot set</a> is a fractal defined as the set of points $c$ of the complex plane for which the sequence of complex numbers, defined by recurrence by $z_0=0$ and $z_{n+1}=z_n^2+c$, is bounded.
 ![Capture d'écran 2023-09-28 124002](https://github.com/maxencebonamy/Fractal-Explorer/assets/66129931/df3d815c-acde-4655-aedc-6a2c64e8cf64)
 
-**Burning Ship:** The <a href="https://en.wikipedia.org/wiki/Burning_Ship_fractal">burning ship fractal</a> is generated in the complex plane by the iterated function, defined by $z_0=0$ and $z_{n+1}=(|\text{Re}(z_n)|+i|\text{Im}(z_n)|)^2+c$. The fractal is defined by the set of points that do not diverge to infinity. Very similar to the Mandelbrot set, it differs in that we consider the absolute value of the real and imaginary components of $z_n$, before squaring.
+### Burning Ship:
+The <a href="https://en.wikipedia.org/wiki/Burning_Ship_fractal">burning ship fractal</a> is generated in the complex plane by the iterated function, defined by $z_0=0$ and $z_{n+1}=(|\text{Re}(z_n)|+i|\text{Im}(z_n)|)^2+c$. The fractal is defined by the set of points that do not diverge to infinity. Very similar to the Mandelbrot set, it differs in that we consider the absolute value of the real and imaginary components of $z_n$, before squaring.
 ![Capture d'écran 2023-09-28 132214](https://github.com/maxencebonamy/Fractal-Explorer/assets/66129931/8bc4f33f-6366-43ef-8164-b60b0ec89447)
 
 <br>
