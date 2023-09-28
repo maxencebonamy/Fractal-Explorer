@@ -2,6 +2,8 @@
 	<img src="https://github.com/maxencebonamy/maxencebonamy/blob/main/assets/Fractal_Explorer.png" width="100%" alt="Sand Box">
 </p>
 
+https://github.com/maxencebonamy/Fractal-Explorer/assets/66129931/240efd8b-7220-4e44-9d6f-b02e0c0b533f
+
 <br>
 
 <p align="center">
