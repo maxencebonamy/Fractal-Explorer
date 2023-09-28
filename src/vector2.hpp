@@ -1,5 +1,4 @@
-#ifndef FRACTAL_EXPLORER_VECTOR2_H
-#define FRACTAL_EXPLORER_VECTOR2_H
+#pragma once
 
 #include <cmath>
 #include <cassert>
@@ -81,5 +80,3 @@ Vector2 operator/(const Vector2& vector, float scalar);
 
 std::ostream& operator<<(std::ostream& os, const Vector2& vector);
 
-
-#endif

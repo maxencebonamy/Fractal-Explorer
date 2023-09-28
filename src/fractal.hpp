@@ -1,5 +1,4 @@
-#ifndef FRACTAL_EXPLORER_FRACTAL_H
-#define FRACTAL_EXPLORER_FRACTAL_H
+#pragma once
 
 #include "vector2.hpp"
 #include <complex>
@@ -29,6 +28,3 @@ public:
     sf::Color getColor(const Vector2& position, int zoom);
 
 };
-
-
-#endif

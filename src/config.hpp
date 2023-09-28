@@ -1,5 +1,4 @@
-#ifndef FRACTAL_EXPLORER_CONFIG_H
-#define FRACTAL_EXPLORER_CONFIG_H
+#pragma once
 
 #include "vector2.hpp"
 #include <vector>
@@ -11,4 +10,3 @@ extern const int WINDOW_FPS;
 
 extern const Vector2 WINDOW_SIZE;
 
-#endif

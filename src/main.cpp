@@ -26,6 +26,7 @@ int main(int argc, char* argv[]) {
     }
     else {
         std::cout << "Error: fractal \"" << fractalName << "\" does not exist (the available fractals are \"mandelbrot\" and \"burning-ship\")." << std::endl;
+        return 1;
     }
 
     bool fullscreen = result["fullscreen"].as<bool>();
