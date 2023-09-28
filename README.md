@@ -13,7 +13,7 @@ A fractal is a mathematical object with a similar structure at all scales.
 In particular, you can zoom in to infinity and see the same patterns.
 This software lets you visualize two very specific fractals and move inside to observe them.
 
-**Mandelbrot:** The Mandelbrot set is a fractal defined as the set of points $$c$$ of the complex plane for which the sequence of complex numbers defined by recurrence by $$z_{n+1}=z_n^2+c$$ with $$z_0=0$$ is bounded.
+**Mandelbrot:** The Mandelbrot set is a fractal defined as the set of points $c$ of the complex plane for which the sequence of complex numbers defined by recurrence by $z_{n+1}=z_n^2+c$ with $z_0=0$ is bounded.
 
 **Burning Ship:** The burning ship fractal is generated in the complex plane by the following iterated function:
 
