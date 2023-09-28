@@ -13,11 +13,9 @@ A fractal is a mathematical object with a similar structure at all scales.
 In particular, you can zoom in to infinity and see the same patterns.
 This software lets you visualize two very specific fractals and move inside to observe them.
 
-**Mandelbrot:** The Mandelbrot set is a fractal defined as the set of points $c$ of the complex plane for which the sequence of complex numbers, defined by recurrence by $z_0=0$ and $z_{n+1}=z_n^2+c$, is bounded.
+<img src="https://github.com/maxencebonamy/Sand-Box/blob/main/assets/ice.png" alt="ice" height="24px" align="top"> **Mandelbrot:** The <a href="https://en.wikipedia.org/wiki/Mandelbrot_set">Mandelbrot set</a> is a fractal defined as the set of points $c$ of the complex plane for which the sequence of complex numbers, defined by recurrence by $z_0=0$ and $z_{n+1}=z_n^2+c$, is bounded.
 
-**Burning Ship:** The burning ship fractal is generated in the complex plane by the iterated function, defined by $z_0=0$ and $z_{n+1}=(|\text{Re}(z_n)|+i|\text{Im}(z_n)|)^2+c$. The fractal is defined by the set of points that do not diverge to infinity. Very similar to the Mandelbrot set, it differs in that we consider the absolute value of the real and imaginary components of $z_n$, before squaring.
-
-<img src="https://github.com/maxencebonamy/Sand-Box/blob/main/assets/ice.png" alt="ice" height="24px" align="top"> **Ice:** like wood or stone, ice is not subject to gravity. And like snow, it melts after a certain time, turning into water.
+<img src="https://github.com/maxencebonamy/Sand-Box/blob/main/assets/ice.png" alt="ice" height="24px" align="top"> **Burning Ship:** The <a href="https://en.wikipedia.org/wiki/Burning_Ship_fractal">burning ship fractal</a> is generated in the complex plane by the iterated function, defined by $z_0=0$ and $z_{n+1}=(|\text{Re}(z_n)|+i|\text{Im}(z_n)|)^2+c$. The fractal is defined by the set of points that do not diverge to infinity. Very similar to the Mandelbrot set, it differs in that we consider the absolute value of the real and imaginary components of $z_n$, before squaring.
 
 <br>
 
