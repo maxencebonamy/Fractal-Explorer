@@ -13,6 +13,16 @@ A fractal is a mathematical object with a similar structure at all scales.
 In particular, you can zoom in to infinity and see the same patterns.
 This software lets you visualize two very specific fractals and move inside to observe them.
 
+**Mandelbrot:** The Mandelbrot set is a fractal defined as the set of points c in the complex plane for which the sequence of complex numbers defined by recurrence by :
+$$\begin{cases}z_0=0\\z_{n+1}=z_n^2+c\end{cases}$$ is bounded.
+
+**Burning Ship:** The burning ship fractal is generated in the complex plane by the following iterated function:
+
+$${\displaystyle z_{n+1}=(|\operatorname {Re} \left(z_{n}\right)|+i|\operatorname {Im} \left(z_{n}\right)|)^{2}+c,\quad z_{0}=0}$$
+The fractal is defined by the set of points that do not diverge to infinity.
+
+Very similar to the Mandelbrot set, it differs in that we consider the absolute value of the real and imaginary components of $$z_n$$, before squaring.
+
 <img src="https://github.com/maxencebonamy/Sand-Box/blob/main/assets/ice.png" alt="ice" height="24px" align="top"> **Ice:** like wood or stone, ice is not subject to gravity. And like snow, it melts after a certain time, turning into water.
 
 <br>
@@ -80,8 +90,8 @@ xmake run main --fractal burning-ship
 - **--fullscreen**: launch software in full screen mode
 - **--cel-size** or **-c**: specify cell size in pixels (default 1). This is used to reduce image quality and therefore loading time between images.
 
-**Example:** the following command will launch the software in full screen mode, and display the fractal burning ship with a resolution of 5 pixels per cell.
+**Example:** the following command will launch the software in full screen mode, and display the "Mandelbrot" fractal with a resolution of 5 pixels per cell.
 ```
-Fractal-Explorer.exe -f burning-ship -c 5 --fullscreen
+Fractal-Explorer.exe -f mandelbrot -c 5 --fullscreen
 ```
 ![Capture d'écran 2023-09-28 124019](https://github.com/maxencebonamy/Fractal-Explorer/assets/66129931/7771e82c-3025-428b-a188-deda0789f698)
