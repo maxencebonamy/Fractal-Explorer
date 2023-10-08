@@ -35,10 +35,10 @@ The <a href="https://en.wikipedia.org/wiki/Burning_Ship_fractal">Burning Ship Fr
 2. Download the **.zip** archive and extract the files.
 3. Open a terminal from the folder **Fractal-Explorer** and run one of the folowwing commands:
 ```
-Fractal-Explorer.exe --fractal mandelbrot
+./Fractal-Explorer.exe --fractal mandelbrot
 ```
 ```
-Fractal-Explorer.exe --fractal burning-ship
+./Fractal-Explorer.exe --fractal burning-ship
 ```
 
 ### Compile:
